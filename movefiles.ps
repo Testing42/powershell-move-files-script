@@ -1,0 +1,3 @@
+Set-Location -Path [C:\enter\path\to\directory\to\take\files\from]
+
+Get-ChildItem .\ -filter 'entersearchstringhere*' | Move-Item -destination [\enter\path\to\directory\to\move\files\to]
